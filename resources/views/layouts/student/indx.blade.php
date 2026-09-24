@@ -79,7 +79,10 @@
     </div>
     <table>
         <thaed>
-            <tr>id</tr>
+            <tr>
+             <th>id</th>
+            </tr>
+            
         </thead>
     </teble>
 
