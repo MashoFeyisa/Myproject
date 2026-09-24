@@ -70,10 +70,10 @@
     <!-- Navigation -->
     <nav>
         <ul>
-            <li><a href="/">Home</a></li>
-            <li><a href="/aboutus">About Us</a></li>
-            <li><a href="/contactus">Contact Us</a></li>
-            <li><a href="/services">Services</a></li>
+            <li><a href="{{ route('home') }}">Home</a></li>
+            <li><a href="{{ route('about-us') }}">About Us</a></li>
+            <li><a href="/contact-us">Contact Us</a></li>
+            <li><a href="#">Services</a></li>
         </ul>
     </nav>
 
@@ -99,7 +99,7 @@
         </main>
 
     </div>
-
+   
 
     <!-- Footer -->
     <footer>
